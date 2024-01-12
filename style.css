@@ -1,0 +1,76 @@
+body{
+    background-color: #177e89;
+    font-family: 'Recursive', sans-serif;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.cabecalho_logo{
+    max-width: 115px;
+}
+
+.cabecalho_lista{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.lista_item{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.banner{
+    background-image: url("https://preview.redd.it/wf1qkddi21z51.png?width=2560&format=png&auto=webp&s=246f96b00e51f3ea70470a4ae4a712fa23bef408");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_textos{
+    background-color: rgba(255, 255, 255, 0.487);
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner_titulo{
+    font-size: 24px;
+    font-family: "Pacifico";
+    color: black;
+}
+
+.banner_detalhe{
+    color: black;
+    font-family: "Rubik Glitch";
+    font-size: 36px;
+}
+
+.banner_botao{
+    color: #177e89;
+    background-color: black;
+    font-family: "Pacifico";
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
