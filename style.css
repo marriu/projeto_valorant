@@ -1,5 +1,5 @@
 body{
-    background-color: #177e89;
+    background-color: white;
     font-family: 'Recursive', sans-serif;
 }
 
@@ -30,7 +30,7 @@ body{
 
 
 .banner{
-    background-image: url("https://preview.redd.it/wf1qkddi21z51.png?width=2560&format=png&auto=webp&s=246f96b00e51f3ea70470a4ae4a712fa23bef408");
+    background-image: url("https://images2.alphacoders.com/132/1322753.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -66,11 +66,136 @@ body{
 }
 
 .banner_botao{
-    color: #177e89;
+    color: #ac5922;
     background-color: black;
     font-family: "Pacifico";
     font-size: 24px;
     padding: 10px 20px;
     border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
     
+}
+
+.classes{
+    color: rgb(0, 0, 0);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 10px;
+
+}
+
+.classes_titulo{
+    font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 40px;
+
+}
+
+.caixa_maior{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 900px;
+
+}
+
+.caixa_interna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    border: 1px solid black;
+    padding: 40px;
+
+}
+
+.titulo_interno{
+	font-size: 30px;
+
+}
+
+.texto_interno{
+    display: flex;
+	justify-content: center;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 15px;
+    height: 300px;
+    width: 300px;
+}
+
+.botao_interno{
+    background-color: transparent;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	border-radius: 8px;
+
+}
+
+.sobre{
+	height: 80vh;
+	background-image: url("https://www.pixground.com/wp-content/uploads/2023/08/Valorant-Agents-4K-Wallpaper-5.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sobre_infos{
+	background-color: rgba(255,255,255,0.8);
+	max-width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap:  25px;
+	padding: 25px;
+	border-radius: 20px;
+}
+
+.sobre_titulo{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.sobre_texto{
+	text-align: center;
+	line-height: 1.6;
+	font-size: 18px;
+}
+
+.footer{
+	margin-top: 80px;
+	color: rgb(0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-top: 1px solid rgb(0, 0, 0);
+	padding-top: 20px;
+}
+.footer_titulo{
+	font-size: 20px;
+}
+
+.footer_texto{
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+}
+
+.footer_detalhe{
+	font-size: 14px;
+	align-self: flex-end;
 }
